@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "readme"
+version = "0.1.0"
+description = "Reading Companion: vocabulary & comprehension questions"
+authors = ["Oscar Laird <olaird25@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+questionary = "^2.0.1"
+wordfreq = "^3.1.1"
+PyMuPDF = "^1.23.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
