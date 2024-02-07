@@ -11,6 +11,8 @@ python = "^3.10"
 questionary = "^2.0.1"
 wordfreq = "^3.1.1"
 PyMuPDF = "^1.23.21"
+openai = "^1.11.1"
+python-env = "^1.0.0"
 
 
 [build-system]
